@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="720.0" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.controllers.OpeningController">
+   <children>
+      <AnchorPane maxHeight="200.0" prefHeight="200.0" prefWidth="1280.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="240.0" maxHeight="200.0" prefHeight="200.0" prefWidth="800.0" text="TETRYS">
+               <font>
+                  <Font name="Arial" size="100.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane maxHeight="520.0" prefHeight="520.0" prefWidth="200.0" VBox.vgrow="NEVER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="520.0" prefWidth="1280.0" spacing="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#singlePlay" prefWidth="500.0" text="Start">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#controls" prefWidth="500.0" text="Controls">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#quit" prefWidth="500.0" text="Quit">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </AnchorPane>
+   </children>
+</VBox>
